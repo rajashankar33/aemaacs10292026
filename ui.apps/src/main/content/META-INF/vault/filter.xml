@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/mrktsite/clientlibs"/>
+    <filter root="/apps/mrktsite/components"/>
+    <filter root="/apps/mrktsite/i18n"/>
+    <filter root="/oak:index/diff.index"/>
+</workspaceFilter>

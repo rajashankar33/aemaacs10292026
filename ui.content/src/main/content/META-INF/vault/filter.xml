@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/mrktsite" mode="merge"/>
+    <filter root="/content/mrktsite" mode="merge"/>
+    <filter root="/content/dam/mrktsite" mode="merge">
+        <exclude pattern="/content/dam/mrktsite(/.*)?"/>
+        <include pattern="/content/dam/mrktsite/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/mrktsite/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/mrktsite" mode="merge"/>
+</workspaceFilter>
